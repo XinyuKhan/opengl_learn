@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(GLFW_ROOT_64)\include;$(GLEW_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(GLFW_ROOT_64)\lib-vc2019;$(GLEW_ROOT)\lib\Release\Win32;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>opengl_release_x64_vc2019</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>glfw3.lib;glfw3dll.lib;glew32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
