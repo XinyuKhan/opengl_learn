@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opengl_learn", "opengl_learn\opengl_learn.vcxproj", "{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vermilion", "vermilion\vermilion.vcxproj", "{99C5CEB9-94E3-473E-8374-A37302081739}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-triangles", "01-triangles\01-triangles.vcxproj", "{96006C10-5B06-45E5-A9BA-0782C29C19F5}"
@@ -20,14 +18,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Debug|x64.ActiveCfg = Debug|x64
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Debug|x64.Build.0 = Debug|x64
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Debug|x86.ActiveCfg = Debug|Win32
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Debug|x86.Build.0 = Debug|Win32
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Release|x64.ActiveCfg = Release|x64
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Release|x64.Build.0 = Release|x64
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Release|x86.ActiveCfg = Release|Win32
-		{F445C2D9-06C8-46FD-A9A8-D30F72CFF78B}.Release|x86.Build.0 = Release|Win32
 		{99C5CEB9-94E3-473E-8374-A37302081739}.Debug|x64.ActiveCfg = Debug|x64
 		{99C5CEB9-94E3-473E-8374-A37302081739}.Debug|x64.Build.0 = Debug|x64
 		{99C5CEB9-94E3-473E-8374-A37302081739}.Debug|x86.ActiveCfg = Debug|Win32

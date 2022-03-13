@@ -72,17 +72,7 @@ display(void)
 // main
 //
 
-//#ifdef _WIN32
-//int CALLBACK WinMain(
-//    _In_ HINSTANCE hInstance,
-//    _In_ HINSTANCE hPrevInstance,
-//    _In_ LPSTR     lpCmdLine,
-//    _In_ int       nCmdShow
-//)
-//#else
-int
-main(int argc, char** argv)
-//#endif
+int main(int argc, char** argv)
 {
     glfwInit();
 
